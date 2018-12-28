@@ -125,7 +125,7 @@ render(newPlaylist);
 })
 
 
-// // ------------------ HELPER FUNCTION(S)
+// ------------------ HELPER FUNCTION(S)
 
 // const objectToHTML = (song) => {
 //   return `<div class='row mb-2'>
@@ -139,7 +139,7 @@ render(newPlaylist);
 // </div>`;
 // }
 
-// // ------------------- EVENT LISTENER(S)
+// ------------------- EVENT LISTENER(S)
 
 // const inputField = document.querySelector('.js-search');
 // addEventListener('input', (e) => {
@@ -149,7 +149,7 @@ render(newPlaylist);
 // }
 // })
 
-// // -------------------- RENDER
+// -------------------- RENDER
 
 // const render = () => {
 
@@ -171,4 +171,6 @@ render(newPlaylist);
 // }
 
 // render();
+
+// testing small change
 
