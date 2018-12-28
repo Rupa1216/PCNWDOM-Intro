@@ -107,10 +107,11 @@ const render = (playlist) => {
 render(playlist);
 
 const inputField = document.querySelector('.js-search');
-const value = inputField.value.toLowerCase();
 
 inputField.addEventListener('input', (e) => {
   console.log(e);
+  
+  const value = inputField.value.toLowerCase();
   let results = [];
   newPlaylist = {name: 'United States Top 10',
   description: 'The top songs in the US right now.',};
