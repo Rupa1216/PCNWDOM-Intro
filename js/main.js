@@ -101,7 +101,6 @@ const render = (playlist) => {
   }
 
   song_list.innerHTML = combinedHTML;
-  console.log(combinedHTML);
 }
 
 render(playlist);
@@ -109,12 +108,13 @@ render(playlist);
 const inputField = document.querySelector('.js-search');
 
 inputField.addEventListener('input', (e) => {
-  console.log(e);
-  
+  // console.log(e);
   const value = inputField.value.toLowerCase();
   let results = [];
-  newPlaylist = {name: 'United States Top 10',
-  description: 'The top songs in the US right now.',};
+  newPlaylist = {
+    name : playlist['name'],
+    description: playlist['description']
+  };
 
   for (let i = 0; i < playlist.songs.length; i++) {
     if (playlist.songs[i].name.toLowerCase().includes(value)) {
